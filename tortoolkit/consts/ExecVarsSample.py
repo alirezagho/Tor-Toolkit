@@ -5,9 +5,9 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "c68afc924b92d73ce27708b155f1e5b4"
+        API_ID = 1046625
+        BOT_TOKEN = "1438892370:AAEbrvF36Snlg_adSt1I7Zakj5X7gYG5clk"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
@@ -20,10 +20,10 @@ except:
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2097152000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -77,7 +77,7 @@ except:
         RSTUFF = False
         FORCE_DOCS_USER = False
         FAST_UPLOAD = True
-        METAINFO_BOT = False
+        METAINFO_BOT = True
         EXPRESS_UPLOAD = True
         
 
