@@ -4,7 +4,16 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/yasirarism/TorToolkit-Telegram/new/master",
-  "success_url": "https://t.me/YMOVIEZ",
-  "website": "https://github.com/yasirarism/TorToolkit-Telegram/new/master"
+  "repository": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
+  "success_url": "https://t.me/torrentleechgdrivesupport",
+  "website": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+  ],
+  "stack": "container"
 }
