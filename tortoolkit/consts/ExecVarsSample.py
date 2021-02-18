@@ -8,13 +8,13 @@ except:
         API_HASH = "c68afc924b92d73ce27708b155f1e5b4"
         API_ID = 1046625
         BOT_TOKEN = "1438892370:AAEbrvF36Snlg_adSt1I7Zakj5X7gYG5clk"
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "https://yasirleecher.herokuapp.com/"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [617426792, -1001255283935, -1001455886928]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -35,7 +35,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://phjjgclcfeyids:96f462bf18dc572ac29814fbaeb1f26fe13e06b6a9197ca706cec58744426443@ec2-54-75-246-118.eu-west-1.compute.amazonaws.com:5432/d79tcqqb5teuc3"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
