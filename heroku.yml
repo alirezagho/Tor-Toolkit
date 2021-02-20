@@ -1,3 +1,7 @@
-build:
-  run:
-  worker: bash start.sh
+build: 
+docker: 
+web: Dockerfile
+
+run: 
+worker: bash start.sh
+ 
